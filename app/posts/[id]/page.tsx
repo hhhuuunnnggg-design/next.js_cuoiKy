@@ -31,7 +31,6 @@ async function getPost(id: string): Promise<Post | null> {
 export async function generateMetadata({
   params,
 }: {
-  params1: { id: string };
   params: { value: { id: string } };
 }): Promise<Metadata> {
   console.log("generateMetadata nhận params:", params);
