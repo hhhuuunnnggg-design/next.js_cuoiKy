@@ -69,6 +69,12 @@ export default function RootLayout({
                   >
                     Bài viết
                   </Link>
+                  <Link
+                    href="/products"
+                    className="rounded-md px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-white"
+                  >
+                    Sản phẩm
+                  </Link>
                 </nav>
               </div>
             </div>
